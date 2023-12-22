@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Avarial</title>
+        <meta name="author" content="Adrian">
+        <meta charset="uft-8">
+        <link rel="stylesheet" href="Style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="main.js"></script>
+    </head>
+    <body>
+    <header>
+        <h1>Avarial - Świat do kampanii w D&D</h1>
+    </header>
+        <main>
+            <div class="navbar">
+                <a href="#">Khanat Gun'duum</a>
+                <a href="#">Imperium Darenveil</a>
+                <a href="#">Republika Handlowa Saraah</a>
+                <a href="#">Archipelag Smoka</a>
+                <a href="#">Krasnoludzkie Księstwo Digaraz</a>
+                <a href="#">Królestwo Elfów</a>
+                <a href="#">Wyspa Półksiężyca</a>
+            </div>
+            <div>
+                <img src="images/Avarial.jpg" alt="Mapa" id="mapa" width="100%">
+            </div>
+        <p id="opis"><b>Opis państw występujących na tym świecie:</b></p>
+        <div class="container">
+        <!--Opis Khanatu-->
+        <div class="box">
+        <h2 id="h2_khan">Khanat Gun'duum</h2>
+        <img src="images/Khanat_emblem.png" alt="Herb_Khanat" width="170px" id="Herb_Khanat">
+        <p id="p_khan">Państwo głownie zamieszkane przez orków, pół-orków, gobliny i goliathy
+            <br><span style="color: red; background-color: whitesmoke;">Populacja</span> - 15 milionów
+            <br>Władca - Khan Tharak Duum
+            <br>Dominująca rasa: orkowie i pół-orkowie
+            <br>Stolica: Orhakmar</p>
+        </div>
+        <!--Opis Imperium-->
+        <div class="box">
+        <h2 id="h2_imp">Imperium Darenveil</h2>
+        <p id="p_imp">Największe państwo na kontynencie, zamieszkane przez prawie wszystkie rasy
+            <br><span style="color: royalblue; background-color: gold;">Populacja</span> - 30 milionów
+            <br>Władca - Cesarz Karian
+            <br>dominująca rasa: ludzie
+            <br>stolica: Zellon</p>
+        </div>
+        <!--Opis Republiki-->
+        <div class="box">
+        <h2 id="h2_rep">Republika Handlowa Saraah</h2>
+            <p id="p_rep">Pustynne państwo handlowe, skupione głównie na zysku i handlu, najbogatsze państwo, zamieszkiwana głównie przez tabaxi, dragonborny oraz ludzi
+                <br><span style="color: darkorange; background-color: black;">Populacja</span> - 5 milionów
+                <br>Władcy - Rada 5 rodów (Sephium , Ironclad , Eterwin , Divalroi, la Croix)
+                <br>dominująca rasa: tabaxi, ludzie
+                <br>stolica: Velearia</p>
+        </div>
+        <!--Opis Archipelagu-->
+        <div class="box">
+        <h2 id="h2_arch">Archipelag Smoka</h2>
+            <p id="p_arch">Wyspiarskie państwo najemników i czarodzieii, zamieszkiwane głównie przez dragonborny, półelfy, ludzi, najbardziej rozwinięte państwo na kontynencie oraz miejsce największej ilości przestępców i przemytników
+                <br><span style="color: lightsteelblue; background-color: crimson;">Populacja</span> - 5 milionów
+                <br>Władcy - 3 namiestników (Valerian Steelheart, Elowen Flameran, Garrick Thorne)
+                <br>dominująca rasa: drakoni
+                <br>stolica: Harlamaaz</p>
+        </div>
+        <!--Opis Księstwa-->
+        <div class="box">
+        <h2 id="h2_kras">Krasnoludzkie Księstwo Digaraz</h2>
+            <p id="p_kras">Państwo stworzone pod górami, zamieszkiwane głównie przez krasnoludy, wiecznie skłócone z królestwem elfów, jedno z najbogatszych państw ze względu na złoto, kamienie szlachetne oraz wyroby krasnoludzkich rzemieślników
+                <br><span style="color: firebrick; background-color: sandybrown;">Populacja</span> - 10 milionów
+                <br>Władca - Książe Gormaz
+                <br>dominująca rasa: krasnoludy
+                <br>stolica: podziemne miasto Razhdag</p>
+                <p>
+                    Lista najbardziej znanych miast:
+                    <ul>
+                        <li>Razhdag</li>
+                        <li>Normar</li>
+                        <li>Ustarag</li>
+                        <li>Holergat</li>
+                    </ul>
+                </p>
+        </div>
+        <!--Opis Królestwa Elfów-->
+        <div class="box">
+        <h2 id="h2_elf">Królestwo Elfów</h2>
+            <p id="p_elf">Państwo zamieszkałe głównie przez elfy (wysokie i leśne), jedno z najpotężniejszych magicznie państw
+                <br><span style="color: forestgreen; background-color: silver;">Populacja</span> - 3 miliony
+                <br>Władca - Królowa Ealamea
+                <br>dominująca rasa leśne elfy
+                <br>stolica: Kal Saveral</p>
+        </div>
+        <!--Opis Wysp Półksiężyca-->
+        <div class="box">
+        <h2 id="h2_moon">Wyspa Półksiężyca</h2>
+            <p id="p_moon">Odosobniona wyspa zamieszkiwana przez Genasi każdego rodzaju, 
+                <br><span style="color: rgb(59, 59, 112); background-color: rgba(218, 218, 22, 0.781);">Populacja</span> - 700 000
+                <br>Władcy - 4 reprezentantów genasi (Terr Earh(ziemia), Aer Winimundus(powietrze), Flamar Igaron(ognień), Agar 	Wodaras(woda))
+                <br>rasa: genasi
+                <br>stolica: Elemaria</p>
+        </div>
+        </div>
+        <div>
+        <br><table>
+            <!--Nagłówek-->
+            <tr>
+                <th>X</th>
+                <th>Khanat</th>
+                <th>Imperium</th>
+                <th>Republika</th>
+                <th>Archipelag</th>
+                <th>Księstwo</th>
+                <th>Królestwo</th>
+                <th>Wyspa</th>
+            </tr>
+
+            <!--Dane tabeli-->
+            <tr><!--Khanat-->
+                <td><b>Khanat</b></td>
+                <td>X</td>
+                <td>WOJNA</td>
+                <td>Sojusz</td>
+                <td>Niechęć</td>
+                <td>Neutralność</td>
+                <td>Neutralność</td>
+                <td>Nie zwracają na nich uwagi</td>
+            </tr>
+            <tr><!--Imperium-->
+                <td><b>Imperium</b></td>
+                <td>WOJNA</td>
+                <td>X</td>
+                <td>Niechęć</td>
+                <td>Umowa najemnicza</td>
+                <td>Przyjaźń</td>
+                <td>Niechęć</td>
+                <td>Nie zwracają na nich uwagi</td>
+            </tr>
+            <tr><!--Republika-->
+                <td><b>Republika</b></td>
+                <td>Sojusz</td>
+                <td>Niechęć</td>
+                <td>X</td>
+                <td>Wrogość</td>
+                <td>Neutralność</td>
+                <td>Neutralność</td>
+                <td>Stosunki handlowe</td>
+            </tr>
+            <tr><!--Archipelag-->
+                <td><b>Archipelag</b></td>
+                <td>Wrogość</td>
+                <td>Umowa najemnicza</td>
+                <td>Wrogość</td>
+                <td>X</td>
+                <td>Neutralność</td>
+                <td>Stosunki handlowe i magiczne</td>
+                <td>Niechęć</td>
+            </tr>
+            <tr><!--Księstwo-->
+                <td><b>Księstwo</b></td>
+                <td>Neutralność</td>
+                <td>Przyjaźń</td>
+                <td>Neutralność</td>
+                <td>Neutralność</td>
+                <td>X</td>
+                <td>Wrogość</td>
+                <td>Ledwo wiedzą o ich istnieniu</td>
+            </tr>
+            <tr><!--Królestwo-->
+                <td><b>Królestwo</b></td>
+                <td>Neutralność</td>
+                <td>Niechęć</td>
+                <td>Neutralność</td>
+                <td>Stosunki handlowe i magiczne</td>
+                <td>Wrogość</td>
+                <td>X</td>
+                <td>Przyjaźń</td>
+            </tr>
+            <tr><!--Wyspa-->
+                <td><b>Wyspa</b></td>
+                <td>Obawa</td>
+                <td>Wrogość</td>
+                <td>Stosunki Handlowe</td>
+                <td>Niechęć</td>
+                <td>Neutralność</td>
+                <td>Przyjaźń</td>
+                <td>X</td>
+            </tr>
+        </table>
+        </div>
+        <div>
+       <br><a href="https://google.com" target="_blank" title="Otwórz w nowej karcie">Otwórz Google</a>
+        </div>
+        <footer>
+        <p>Utworzone przez Adrian</p>
+        </footer>
+        </main>
+    </body> 
+</html>        
