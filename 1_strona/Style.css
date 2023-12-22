@@ -1,0 +1,149 @@
+body {
+    background-image: url(https://static8.depositphotos.com/1000401/936/i/950/depositphotos_9361048-stock-illustration-parchment-paper-background-texture.jpg);
+    background-size: cover;
+    font-size: 25px; 
+}
+h1{
+    color:greenyellow; background-color: blueviolet; text-align: center;
+    box-shadow: 1px 15px 30px black;
+    font-size: 5em;
+    padding: 20px;
+}
+#opis {
+    background-color: grey;
+    box-shadow: 2px 15px 30px;
+    font-size: 40px;
+    padding: 20px;
+    margin-right: 1000px;
+}
+h2 {
+    box-shadow: 1px 15px 30px black;
+}
+p{
+    text-indent: 30px;
+    text-decoration: wavy;
+}
+.navbar {
+    overflow: hidden;
+    background-color:goldenrod;
+    position: fixed;
+    top: 5px;
+    left: 0.5%;
+    right: 0.5%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20%;
+    transition-property: var(border-radius) var(background-color);
+    transition-duration: 1s;
+}
+.navbar a:hover {
+    background-color:orange;
+    border-radius: 50%;
+    color: black;
+}
+
+.mapa{
+    position: fixed;
+    width: 100%;
+    bottom: 70px;
+    z-index: 9;
+    margin-left: -960px;
+    left: 50%;
+}
+
+table{
+    text-align: center;border: 5px solid black; padding: 10px; margin: 50px; border-radius: 100px
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+.box {
+    align-self: left;
+    justify-content: left;
+}
+
+#Herb_Khanat{
+    float: right;
+    margin-right: 100px;
+}
+#h2_khan {
+    color:whitesmoke; text-align: center;background-color: red;
+    border-radius: 200px;
+}
+
+#p_khan {
+    border:5px solid red; padding:10px; margin:10px;
+    border-radius: 45px;
+    margin-right: 500px;
+}
+
+
+#h2_imp {
+    color: gold; text-align: center; background-color: royalblue;
+    border-radius: 200px
+}
+#p_imp {
+    border:5px solid royalblue; padding:10px; margin:10px;
+    border-radius: 45px;
+    margin-right: 500px;
+}
+
+#h2_rep {
+    color:black; text-align: center; background-color:darkorange;
+    border-radius: 200px
+}
+#p_rep {
+    border:5px solid darkorange; padding:10px; margin:10px;
+    border-radius: 45px;
+    margin-right: 500px;
+}
+
+#h2_arch {
+    color:crimson; text-align: center; background-color:lightsteelblue;
+    border-radius: 200px
+}
+#p_arch {
+    border:5px solid lightsteelblue; padding:10px; margin:10px;
+    border-radius: 45px;
+    margin-right: 500px;
+}
+
+#h2_kras {
+    color:sandybrown; text-align: center; background-color:firebrick;
+    border-radius: 200px
+}
+#p_kras {
+    border:5px solid firebrick; padding:10px; margin:10px;
+    border-radius: 45px;
+    margin-right: 500px;
+}
+
+#h2_elf {
+    color:silver; text-align: center; background-color:forestgreen;
+    border-radius: 200px
+}
+#p_elf {
+    border:5px solid forestgreen; padding:10px; margin:10px;
+    border-radius: 45px;
+    margin-right: 500px;
+}
+
+#h2_moon {
+    color:rgba(218, 218, 22, 0.781); text-align: center; background-color:rgb(53, 53, 102);
+    border-radius: 200px
+}
+#p_moon {
+    border:5px solid rgb(59, 59, 112); padding:10px; margin:10px;
+    border-radius: 45px;
+    margin-right: 500px;
+}
